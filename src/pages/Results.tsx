@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 const mockResults = {
   riskLevel: "medium" as const,
   overallScore: 72,
-  completedDate: "September 23, 2024",
+  completedDate: "October 4, 2025",
   factors: [
     "Slight delays in word recall tasks",
     "Some hesitation in speech patterns",
@@ -75,7 +75,7 @@ export default function Results() {
                 {Object.entries(mockResults.domainScores).map(([domain, score]) => {
                   const getScoreColor = (score: number) => {
                     if (score >= 80) return "success";
-                    if (score >= 60) return "warning";
+                    if (score >= 60) return "amber-500";
                     return "destructive";
                   };
                   
@@ -166,7 +166,7 @@ export default function Results() {
                 
                 <div>
                   <div className="flex items-center gap-2 mb-1">
-                    <div className="w-3 h-3 rounded bg-warning" />
+                    <div className="w-3 h-3 rounded bg-amber-500" />
                     <span className="font-medium">Medium Risk</span>
                   </div>
                   <p className="text-xs">Some areas may need attention</p>

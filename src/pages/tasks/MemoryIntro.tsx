@@ -67,7 +67,7 @@ export default function MemoryIntro() {
             </div>
 
             <div className="bg-success-light p-4 rounded-lg border border-success/20">
-              <p className="text-sm text-success-foreground">
+              <p className="text-sm text-foreground">
                 <strong>Remember:</strong> These are normal cognitive exercises. 
                 Everyone performs differently, and there are no "failing" scores.
               </p>

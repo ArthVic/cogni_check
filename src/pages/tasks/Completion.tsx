@@ -82,10 +82,10 @@ export default function Completion() {
 
           <div className="space-y-4 mb-8">
             <Card className="p-4 bg-success-light border-success/20">
-              <h3 className="font-semibold text-success-foreground mb-2">
+              <h3 className="font-semibold text-foreground mb-2">
                 What happens next?
               </h3>
-              <div className="text-sm text-success-foreground space-y-1">
+              <div className="text-sm text-foreground space-y-1">
                 <p>• View your personalized risk assessment</p>
                 <p>• See contributing factors and explanations</p>
                 <p>• Get recommendations for next steps</p>
